@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">SODV3203_Assignment1_TIC_TAC_TOE</string>
+    <string name="btnGrid">Button</string>
+    <string name="btnGrid3">Button</string>
+    <string name="btnGrid1">Button</string>
+    <string name="btnGrid2">Button</string>
+    <string name="btnGrid5">Button</string>
+    <string name="btnGrid4">Button</string>
+    <string name="btnGrid6">Button</string>
+    <string name="btnGrid7">Button</string>
+    <string name="btnGrid8">Button</string>
 </resources>

@@ -8,93 +8,94 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/btn_Grid"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginTop="200dp"
-        android:text="Button"
+        android:text="@string/btnGrid"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="DuplicateSpeakableTextCheck" />
 
     <Button
-        android:id="@+id/button6"
+        android:id="@+id/btn_Grid1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginTop="200dp"
-        android:text="Button"
-        app:layout_constraintStart_toEndOf="@+id/button5"
+        android:text="@string/btnGrid1"
+        app:layout_constraintStart_toEndOf="@+id/btn_Grid"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button7"
+        android:id="@+id/btn_Grid2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginTop="200dp"
-        android:text="Button"
-        app:layout_constraintStart_toEndOf="@+id/button6"
+        android:text="@string/btnGrid2"
+        app:layout_constraintStart_toEndOf="@+id/btn_Grid1"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button8"
+        android:id="@+id/brn_Gird3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginTop="60dp"
-        android:text="Button"
+        android:text="@string/btnGrid3"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button5" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_Grid" />
 
     <Button
-        android:id="@+id/button9"
+        android:id="@+id/btn_Grid4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginTop="60dp"
-        android:text="Button"
-        app:layout_constraintStart_toEndOf="@+id/button8"
-        app:layout_constraintTop_toBottomOf="@+id/button6" />
+        android:text="@string/btnGrid4"
+        app:layout_constraintStart_toEndOf="@+id/brn_Gird3"
+        app:layout_constraintTop_toBottomOf="@+id/btn_Grid1" />
 
     <Button
-        android:id="@+id/button10"
+        android:id="@+id/btn_Grid5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginTop="60dp"
-        android:text="Button"
-        app:layout_constraintStart_toEndOf="@+id/button9"
-        app:layout_constraintTop_toBottomOf="@+id/button7" />
+        android:text="@string/btnGrid5"
+        app:layout_constraintStart_toEndOf="@+id/btn_Grid4"
+        app:layout_constraintTop_toBottomOf="@+id/btn_Grid2" />
 
     <Button
-        android:id="@+id/button11"
+        android:id="@+id/btn_Grid6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginTop="60dp"
-        android:text="Button"
+        android:text="@string/btnGrid6"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button8" />
+        app:layout_constraintTop_toBottomOf="@+id/brn_Gird3" />
 
     <Button
-        android:id="@+id/button12"
+        android:id="@+id/btn_Grid7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginTop="60dp"
-        android:text="Button"
-        app:layout_constraintStart_toEndOf="@+id/button11"
-        app:layout_constraintTop_toBottomOf="@+id/button9" />
+        android:text="@string/btnGrid7"
+        app:layout_constraintStart_toEndOf="@+id/btn_Grid6"
+        app:layout_constraintTop_toBottomOf="@+id/btn_Grid4" />
 
     <Button
-        android:id="@+id/button13"
+        android:id="@+id/btn_Grid8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginTop="60dp"
-        android:text="Button"
-        app:layout_constraintStart_toEndOf="@+id/button12"
-        app:layout_constraintTop_toBottomOf="@+id/button10" />
+        android:text="@string/btnGrid8"
+        app:layout_constraintStart_toEndOf="@+id/btn_Grid7"
+        app:layout_constraintTop_toBottomOf="@+id/btn_Grid5" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
